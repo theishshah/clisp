@@ -9,11 +9,11 @@ int main(int argc, char** argv) {
 
     while(1){
     
-        fputs("clisp> ". stdout);
+        fputs("clisp> ", stdout);
 
         fgets(input, 2048, stdin);
 
-        printf("No you're a %s". input);
+        printf("No you're a %s", input);
     }
 
 return 0;
