@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
 
     while(1){
         
-        char* input = readline("lispy>> ");
+        char* input = readline("clisp>> ");
     
         add_history(input);
 
